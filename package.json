@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "@nestjs/mapped-types": "*",
+    "@nestjs/microservices": "^10.3.7",
+    "ioredis": "^5.3.2"
+  },
+  "name": "nestjs-microservice",
+  "private": true,
+  "scripts": {
+    "lerna-install": "lerna exec npm i",
+    "install-deps": "npm install && lerna bootstrap",
+    "clean-deps": "lerna clean -y",
+    "remove-deps": "npm run clean-deps && rm -rf node_modules",
+    "start": "lerna run start:dev --parallel",
+    "build": "lerna run build --parallel"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}

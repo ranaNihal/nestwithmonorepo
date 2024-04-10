@@ -1,0 +1,10 @@
+{
+    "packages": [
+      "packages/gateway",
+      "packages/course",
+      "packages/auth",
+      "packages/user"
+    ],
+    "version": "0.0.0"
+  }
+  
